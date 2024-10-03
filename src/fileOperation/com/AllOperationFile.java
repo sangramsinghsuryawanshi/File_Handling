@@ -10,7 +10,7 @@ public class AllOperationFile
 {
 	public static void isCreated()
 	{
-		File f = new File("C:\\Users\\Shree\\Desktop\\Theroy_Java_Codenera\\FileHandling\\created.txt");
+		File f = new File("E:\\\\\\\\Theroy_Java_Codenera\\\\\\\\FileHandling\\\\\\\\oper.txt");
 		boolean b=false;
 		try 
 		{
@@ -51,7 +51,7 @@ public class AllOperationFile
 	{
 		try 
 		{
-		FileReader f = new FileReader("C:\\\\Users\\\\Shree\\\\Desktop\\\\Theroy_Java_Codenera\\\\FileHandling\\\\created.txt");
+		FileReader f = new FileReader("E:\\\\\\\\Theroy_Java_Codenera\\\\\\\\FileHandling\\\\\\\\oper.txt");
 		Scanner sc = new Scanner(f);
 	    StringBuilder l= new StringBuilder();
 		while (sc.hasNextLine()) 
@@ -71,7 +71,7 @@ public class AllOperationFile
 	}
 	public static void isDeleted()
 	{
-		File f = new File("C:\\Users\\Shree\\Desktop\\Theroy_Java_Codenera\\FileHandling\\created.txt");
+		File f = new File("E:\\\\\\\\Theroy_Java_Codenera\\\\\\\\FileHandling\\\\\\\\oper.txt");
 		boolean b =f.delete();
 		
 		if(b==true)
